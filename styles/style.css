@@ -1,8 +1,14 @@
-h1 {
-    color: hotpink;
-    border-bottom: purple 10px;
+.logo {
+    margin: auto;
+    display: block;
+    width: 200px;
+    padding: 10% 0 5% 0;
 }
 
-h2 {
-    
+.search {
+    margin: auto;
+    width: 20%;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
 }
