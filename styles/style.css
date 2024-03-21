@@ -1,14 +1,27 @@
-.logo {
-    margin: auto;
-    display: block;
-    width: 200px;
-    padding: 10% 0 5% 0;
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
 }
 
-.search {
-    margin: auto;
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
     width: 20%;
-    height: 40px;
-    border: 2px solid black;
-    text-align: center;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
 }
